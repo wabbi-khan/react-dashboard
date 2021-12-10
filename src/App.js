@@ -1,59 +1,14 @@
+import SideBar from "./components/sidebar/SideBar";
 import Topbar from "./components/topbar/Topbar";
-
+import "./app.css";
 function App() {
 	return (
 		<div>
 			<Topbar />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
-			test <br />
+			<div className="container">
+				<SideBar />
+				{/* <div className="others">other pages</div> */}
+			</div>
 		</div>
 	);
 }
